@@ -1,0 +1,11 @@
+.{
+    .name = .wlkb,
+    .version = "0.0.1",
+    .minimun_zig_version = "0.14.0",
+    .fingerprint = 0x0,
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
