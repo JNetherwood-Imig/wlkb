@@ -1,0 +1,7 @@
+codes:
+  - key: "a"
+    base: "lowercase_a"
+    shift: "uppercase_a"
+  - key: "1"
+    base: "1"
+    shift: "exclamation_mark"

@@ -1,7 +1,10 @@
 mods: ModMask = .{},
 leds: LedMask = .{},
 
-const ModMask = packed struct {};
+const ModMask = packed struct {
+    shift: bool = false,
+    caps: bool = false,
+};
 
 const LedMask = packed struct {
     num_lock: bool = false,
